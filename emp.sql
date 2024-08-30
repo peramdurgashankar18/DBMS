@@ -45,3 +45,8 @@ from emp e1,emp e2
 where e1.mgr = e2.empno;
 
 
+select *
+from emp
+where deptno = (select deptno
+    			from emp
+    			where ename = 'JAMES');
