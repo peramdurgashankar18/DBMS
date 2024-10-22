@@ -1,4 +1,4 @@
-/*creating a tble for employeee*/
+/*creating a table for employeee*/
 
 
 create table dept(deptno number(2), dname  varchar2(20), loc  varchar2(15),  
